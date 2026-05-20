@@ -1,0 +1,82 @@
+{
+  "theme": "Light",
+  "archetype": "Archetype 1/4 Hybrid",
+  "colors": {
+    "primary": "#0F3D91",
+    "secondary": "#F5C542",
+    "accent": "#E63946",
+    "background": "#FFFFFF",
+    "surface": "#F9FAFB",
+    "text_main": "#111827",
+    "text_muted": "#4B5563",
+    "border": "#E5E7EB"
+  },
+  "typography": {
+    "heading": "General Sans",
+    "body": "Nunito",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none font-bold",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-semibold",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed",
+      "label": "text-sm tracking-[0.2em] uppercase font-bold"
+    }
+  },
+  "layout_spacing": {
+    "container": "max-w-7xl mx-auto px-6 sm:px-8 lg:px-12",
+    "section_padding": "py-24 sm:py-32",
+    "bento_grid": "grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8"
+  },
+  "surfaces": {
+    "header": "backdrop-blur-xl bg-white/80 border-b border-gray-200/50",
+    "card": "bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 rounded-2xl",
+    "footer": "bg-[#0F3D91] text-white py-24"
+  },
+  "motion": "Lenis for smooth scrolling, Framer Motion for staggered scroll reveals.",
+  "image_urls": [
+    {
+      "category": "logo",
+      "url": "https://customer-assets.emergentagent.com/job_ee177ad8-8586-459c-8e50-96da056ee532/artifacts/kd140cm1_WhatsApp%20Image%202026-05-20%20at%2013.42.15.jpeg",
+      "description": "Gyana Vibhuti Kids School Logo"
+    },
+    {
+      "category": "hero",
+      "url": "https://images.pexels.com/photos/8926644/pexels-photo-8926644.jpeg",
+      "description": "Three girls in school uniforms reading a book indoors"
+    },
+    {
+      "category": "campus_exterior",
+      "url": "https://images.pexels.com/photos/17144608/pexels-photo-17144608.jpeg",
+      "description": "Modern school building exterior"
+    },
+    {
+      "category": "sports",
+      "url": "https://images.pexels.com/photos/8927012/pexels-photo-8927012.jpeg",
+      "description": "Children playing soccer"
+    },
+    {
+      "category": "testimonials_1",
+      "url": "https://images.unsplash.com/photo-1763013259118-ffbc78b2bdb8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHw0fHxoYXBweSUyMHBhcmVudHMlMjBjaGlsZHJlbnxlbnwwfHx8fDE3NzkyNjUyODR8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Happy mother and baby"
+    },
+    {
+      "category": "testimonials_2",
+      "url": "https://images.unsplash.com/photo-1628676348963-f88c671333f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHBhcmVudHMlMjBjaGlsZHJlbnxlbnwwfHx8fDE3NzkyNjUyODR8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Happy father and child"
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Create a static React frontend with Tailwind CSS and Framer Motion.",
+    "Implement Lenis for smooth scrolling to give a premium feel.",
+    "Use General Sans for headings and Nunito for body copy.",
+    "Build a sticky premium header that starts transparent and turns to crystal glass (solid white with blur) on scroll.",
+    "Implement an Apple-style cinematic hero section with scroll reveals and large imagery with a max overlay of bg-black/30 or bg-white/20.",
+    "Use a Bento grid layout (Tetris mode) for 'Why Choose Us' and 'Facilities'.",
+    "Include a Masonry Gallery with lightbox functionality.",
+    "Ensure all interactive elements have data-testid attributes.",
+    "Follow generous spacing (py-24 or py-32 for major sections).",
+    "Include a floating WhatsApp inquiry shortcut and 'Apply Now' CTA.",
+    "Build a premium dark footer using Deep Royal Blue bg-[#0F3D91]."
+  ]
+}
