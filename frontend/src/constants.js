@@ -17,10 +17,10 @@ export const SCHOOL_INFO = {
 
 export const IMAGES = {
   hero: "https://customer-assets.emergentagent.com/job_premium-kids-school/artifacts/8e5cpuwa_WhatsApp%20Image%202026-05-20%20at%2014.37.29.jpeg",
-  classroom1: "/images/classroom2.jpeg",
+  classroom1: "/images/learning.jpeg",
   classroom2: "/images/learning.jpeg",
   library: "/images/reading.jpeg",
-  campus: "/images/classroom2.jpeg",
+  campus: "/images/classroom1.jpeg",
   playground: "/images/playground.jpeg",
   artClass: "/images/artClass.jpeg",
   artWorkshop: "/images/artWorkshop.jpeg",
